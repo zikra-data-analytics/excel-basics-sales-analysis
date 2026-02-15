@@ -6,7 +6,9 @@
 Monthly sales data for 10 products (Laptop, Mouse, Keyboard, etc.). Raw data includes Date, Product, Units Sold, Unit Price.
 
 **Key Insights:**
-- **Total Sales**: ₹4,52,300
+- **Total Sales**: ₹5,60,000
+<img width="108" height="42" alt="image" src="https://github.com/user-attachments/assets/4f2e5a1e-7317-4816-9075-fe2084b866d7" />
+
 - **Average Units Sold**: 16.5 per product
 - **Top Performer**: Laptop (55% of total sales, ₹2,50,000)
 - **Bottom Performer**: Cable (2% of total sales, ₹8,000)
@@ -17,12 +19,12 @@ Monthly sales data for 10 products (Laptop, Mouse, Keyboard, etc.). Raw data inc
 
 | Calculation | Formula | Cell Reference | Result |
 |-------------|---------|----------------|--------|
-| Total Sales | `=SUM(E2:E11)` | G2 | ₹4,52,300 |
+| Total Sales | `=SUM(E2:E11)` | G2 | ₹5,60,000 |
 | Average Units | `=AVERAGE(C2:C11)` | G3 | 16.5 |
 | Count Products | `=COUNTA(B2:B11)` | G4 | 10 |
 | Max Sales | `=MAX(E2:E11)` | G5 | ₹2,50,000 |
 | Min Sales | `=MIN(E2:E11)` | G6 | ₹8,000 |
-| Sales % | `=(E2/$G$2)*100` | H2 (copied down) | 55% |
+| Sales % | `=(E2/$G$2)*100` | H2 (copied down) | 45% |
 
 ## 📈 Visualization
 3D Pie Chart shows **product-wise sales distribution**. Laptop dominates at 55%.
